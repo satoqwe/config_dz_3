@@ -1,0 +1,9 @@
+{
+  "define": { "name": "CONST1", "value": 42 },
+  "server": {
+    "host": "localhost",
+    "port": 8080,
+    "features": ["enabled", "beta", 123]
+  },
+  "calc": "^[CONST1 + 10]"
+}

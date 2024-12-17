@@ -1,0 +1,14 @@
+(define DEFAULT_PORT 8080);
+$[
+ server : $[
+ host : "localhost",
+ port : 8082,
+ modules : list("http", "cache", "security"),
+],
+]
+$[
+ log : $[
+ level : "info",
+ path : "/var/log/server.log",
+],
+]

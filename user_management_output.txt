@@ -1,0 +1,15 @@
+(define MAX_LOGIN_ATTEMPTS 5);
+$[
+ users : $[
+ admin : $[
+ password : "secure123",
+ role : "superuser",
+ max_attempts : 5,
+],
+ guest : $[
+ password : "guest",
+ role : "readonly",
+ max_attempts : 3,
+],
+],
+]

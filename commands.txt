@@ -1,0 +1,1 @@
+type input.json | python src/config_tool.py output.txt

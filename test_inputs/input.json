@@ -1,0 +1,1 @@
+{"define": {"name": "DEFAULT_PORT", "value": 8080}, "server": {"host": "localhost", "port": "^[DEFAULT_PORT + 2]", "modules": ["http", "cache", "security"]}, "log": {"level": "info", "path": "/var/log/server.log"}}

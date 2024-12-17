@@ -1,0 +1,11 @@
+(define CONST1 42);
+$[
+ server : $[
+ host : "localhost",
+ port : 8080,
+ features : list("enabled", "beta", 123),
+],
+]
+$[
+ calc : 52,
+]

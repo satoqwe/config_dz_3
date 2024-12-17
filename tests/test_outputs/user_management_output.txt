@@ -1,0 +1,18 @@
+-- Объявление константы MAX_LOGIN_ATTEMPTS
+(define MAX_LOGIN_ATTEMPTS 5);
+
+-- Конфигурация пользователей
+$[
+ users : $[
+  admin : $[
+   password : "secure123",
+   role : "superuser",
+   max_attempts : 5,
+  ],
+  guest : $[
+   password : "guest",
+   role : "readonly",
+   max_attempts : 3,
+  ],
+ ],
+]

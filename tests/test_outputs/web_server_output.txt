@@ -1,0 +1,15 @@
+-- Объявление константы DEFAULT_PORT
+(define DEFAULT_PORT 8080);
+
+-- Конфигурация сервера
+$[
+ server : $[
+  host : "localhost",
+  port : 8102,
+  modules : list("http", "cache", "security"),
+ ],
+ log : $[
+  level : "info",
+  path : "/var/log/server.log",
+ ],
+]
